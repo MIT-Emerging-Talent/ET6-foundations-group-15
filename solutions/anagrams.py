@@ -26,6 +26,12 @@ def are_anagrams(word_1: str, word_2: str):
     Raises:
     AssertionError: If the input is not a string.
 
+    >>> binary_to_decimal(254)
+    11111110
+    >>> binary_to_decimal(13)
+    1101
+    >>> binary_to_decimal(173)
+    10101101
 
     """
 
