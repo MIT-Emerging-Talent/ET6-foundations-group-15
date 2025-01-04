@@ -11,7 +11,7 @@ Created on 03 01 25
 """
 
 
-def are_anagrams(word_1: str, word_2: str):
+def are_anagrams(word_1: str, word_2: str) -> bool:
     """
     Checks whether two strings are anagrams.
 

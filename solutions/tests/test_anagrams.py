@@ -1,3 +1,16 @@
+"""
+A module for testing the are_anagrams function.
+
+Tests included:
+    - When two words are anagarms
+    - When two words are not anagrams
+    - When the input is two phrases, not words
+    - When the input is not a string
+
+Created on 04 01 24
+@author: Abdallah Alnajjar
+"""
+
 import unittest
 
 from ..anagrams import are_anagrams
