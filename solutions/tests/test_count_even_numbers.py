@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Test Suite for count_even_numbers.py
-Created on January 4, 2025
+Created on January 8, 2025
 
 Tests the functionality of the count_even_numbers function.
 
@@ -10,7 +10,7 @@ Tests the functionality of the count_even_numbers function.
 """
 
 import unittest
-from ..count_even_numbers import count_even_numbers
+from solutins.count_even_numbers import count_even_numbers
 
 
 class TestCountEvenNumbers(unittest.TestCase):
