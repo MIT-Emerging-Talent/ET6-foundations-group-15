@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-This module defines the function `count_evens`  
-to count the number of even numbers in a list.  
-It handles cases where non-integer elements are ignored.
+This module defines the function `count_evens`to count the number of even numbers in a list.  
 
 Author: Norbert Ndayisenga
 Date: 07 01 2024
