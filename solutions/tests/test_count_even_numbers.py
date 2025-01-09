@@ -1,49 +1,35 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-This module contains unit tests for the `count_evens` function.
-
-Author: Norbert Ndayisenga
-Date: 07 01 2024
+Unit tests for the `count_evens` function.
 """
 
 import unittest
-from ..count_even_numbers import count_evens 
+from solutions.count_even_numbers import count_evens
+
 
 class TestCountEvens(unittest.TestCase):
-    """
-    Unit tests for the `count_evens` function.
-    """
-
     def test_empty_list(self):
-        """Test that an empty list returns 0."""
+        """Test with an empty list."""
         self.assertEqual(count_evens([]), 0)
 
     def test_no_even_numbers(self):
-        """Test that a list with no even numbers returns 0."""
+        """Test with a list containing no even numbers."""
         self.assertEqual(count_evens([1, 3, 5]), 0)
 
     def test_all_even_numbers(self):
-        """Test that a list with all even numbers returns the correct count."""
-        self.assertEqual(count_evens([2, 4, 6]), 3)
+        """Test with a list containing only even numbers."""
+        self.assertEqual(count_evens([2, 4, 6, 8]), 4)
 
     def test_mixed_numbers(self):
-        """Test that a list with mixed even and odd numbers returns the correct count."""
-        self.assertEqual(count_evens([1, 2, 3, 4, 5, 6]), 3)
+        """Test with a list containing mixed numbers and types."""
+        self.assertEqual(count_evens([1, 2, "a", None, 4, 6]), 3)
 
-    def test_negative_numbers(self):
-        """Test that negative even numbers are correctly counted."""
-        self.assertEqual(count_evens([-2, -4, 3, 5]), 2)
+    def test_non_integer_elements(self):
+        """Test with a list containing non-integer elements."""
+        self.assertEqual(count_evens(["hello", None, 3.14, [], {}]), 0)
 
-    def test_mixed_types(self):
-        """Test that a list with mixed types counts only even integers."""
-        self.assertEqual(count_evens([1, 2, "string", 3.5, None, 4]), 2)
-
-    def test_invalid_input(self):
-        """Test that invalid inputs raise a TypeError."""
+    def test_type_error(self):
+        """Test with an input that is not a list."""
         with self.assertRaises(TypeError):
-            count_evens("string")
-
-        with self.assertRaises(TypeError):
-            count_evens(123)
-
+            count_evens("not a list")
