@@ -57,4 +57,4 @@ Some boundaries around our project.
 | Mohammad   | The code difficulty        |
 | Kimya   | The code difficulty      |
 | Asia  | The organization of the project      |
-| Member   | Python Formatting       |
+| Norbert   | Python Formatting       |
