@@ -1,43 +1,43 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for counting even numbers in a given list.
+This module defines the function `count_evens` to count the number of even numbers
+in a given list of elements. The function handles mixed types and counts even numbers
+without excluding the entire list if it contains non-integers.
 
-Module contents:
-- count_even_numbers: Counts the even integers in a list while ignoring non-integer elements.
-
-Created on January 8, 2025
-
-@author: Norbert Ndayisenga
+Author: Norbert Ndayisenga
+Date: 07 01 2024
 """
 
-from typing import List
-
-
-def count_even_numbers(numbers: List) -> int:
+def count_evens(numbers: list) -> int:
     """
-    Count the even integers in a list while ignoring non-integer elements.
+    Counts the number of even integers in a given list.
 
-    Args:
-        numbers (List): A list of elements of any type.
+    Parameters:
+        numbers (list): The input list of elements to evaluate.
 
     Returns:
-        int: The count of even integers in the list.
+        int: The number of even integers in the input list.
+
+    Raises:
+        TypeError: If the input is not a list.
 
     Examples:
-        >>> count_even_numbers([2, 4, 6, 8])
-        4
-        >>> count_even_numbers([1, 3, 5, 7])
-        0
-        >>> count_even_numbers([1, 2, 3, 4, 'five', 6.0])
-        2
-        >>> count_even_numbers([-2, -4, 'a', -8])
+        >>> count_evens([1, 2, 3, 4, 5, 6])
         3
-        >>> count_even_numbers([])  # An empty list should return 0
+        >>> count_evens([])
         0
+        >>> count_evens([-2, -4, 3, 5, "string", None])
+        2
     """
+    # Ensure the input is a list
+    if not isinstance(numbers, list):
+        raise TypeError("Input must be a list")
+
+    # Count even integers
     even_count = 0
-    for num in numbers:
-        if isinstance(num, int) and num % 2 == 0:
+    for item in numbers:
+        if isinstance(item, int) and item % 2 == 0:
             even_count += 1
+
     return even_count
