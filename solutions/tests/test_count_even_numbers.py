@@ -1,52 +1,49 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test Suite for count_even_numbers.py
-Created on January 8, 2025
+This module contains unit tests for the `count_evens` function.
 
-Tests the functionality of the count_even_numbers function.
-
-@author: Norbert Ndayisenga
+Author: Norbert Ndayisenga
+Date: 07 01 2024
 """
 
 import unittest
-from solutins.count_even_numbers import count_even_numbers
+from ..count_even_numbers import count_evens 
 
-
-class TestCountEvenNumbers(unittest.TestCase):
+class TestCountEvens(unittest.TestCase):
     """
-    Unit tests for the count_even_numbers function.
+    Unit tests for the `count_evens` function.
     """
-
-    def test_all_even_numbers(self):
-        """Tests a list containing only even numbers."""
-        self.assertEqual(count_even_numbers([2, 4, 6, 8]), 4)
-
-    def test_no_even_numbers(self):
-        """Tests a list containing no even numbers."""
-        self.assertEqual(count_even_numbers([1, 3, 5, 7]), 0)
-
-    def test_mixed_numbers(self):
-        """Tests a list containing both even and odd numbers."""
-        self.assertEqual(count_even_numbers([1, 2, 3, 4, 'five', 6.0]), 2)
-
-    def test_negative_even_numbers(self):
-        """Tests a list containing negative even numbers."""
-        self.assertEqual(count_even_numbers([-2, -4, 'a', -8]), 3)
 
     def test_empty_list(self):
-        """Tests an empty list."""
-        self.assertEqual(count_even_numbers([]), 0)
+        """Test that an empty list returns 0."""
+        self.assertEqual(count_evens([]), 0)
 
-    def test_non_integer_elements(self):
-        """Tests a list with various non-integer elements."""
-        self.assertEqual(count_even_numbers([1, 'two', 3.5, None, True, 4]), 1)
+    def test_no_even_numbers(self):
+        """Test that a list with no even numbers returns 0."""
+        self.assertEqual(count_evens([1, 3, 5]), 0)
 
-    def test_boundary_case_single_even(self):
-        """Tests a list with a single even number."""
-        self.assertEqual(count_even_numbers([2]), 1)
+    def test_all_even_numbers(self):
+        """Test that a list with all even numbers returns the correct count."""
+        self.assertEqual(count_evens([2, 4, 6]), 3)
 
-    def test_boundary_case_single_odd(self):
-        """Tests a list with a single odd number."""
-        self.assertEqual(count_even_numbers([1]), 0)
+    def test_mixed_numbers(self):
+        """Test that a list with mixed even and odd numbers returns the correct count."""
+        self.assertEqual(count_evens([1, 2, 3, 4, 5, 6]), 3)
+
+    def test_negative_numbers(self):
+        """Test that negative even numbers are correctly counted."""
+        self.assertEqual(count_evens([-2, -4, 3, 5]), 2)
+
+    def test_mixed_types(self):
+        """Test that a list with mixed types counts only even integers."""
+        self.assertEqual(count_evens([1, 2, "string", 3.5, None, 4]), 2)
+
+    def test_invalid_input(self):
+        """Test that invalid inputs raise a TypeError."""
+        with self.assertRaises(TypeError):
+            count_evens("string")
+
+        with self.assertRaises(TypeError):
+            count_evens(123)
 
