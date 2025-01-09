@@ -55,7 +55,7 @@ ______________________________________________________________________
 | **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  |
 | **Kimya**    | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
 | **Mohammad** | 2 PM - 4 PM (2h)  | 2 PM - 4 PM (2h)  | 7 PM - 10 PM (2h) |
-| **Member 5** | 5h                | 6h                | 5h                |
+| **Norbert**  | 5 PM -  7PM (2h)  | 2 PM - 4 PM  (2h)  | 4 PM - 6 PM (2h) |
 | **Member 6** | 5h                | 6h                | 5h                |
 | **Member 7** | 5h                | 6h                | 5h                |
 
@@ -67,7 +67,7 @@ ______________________________________________________________________
 | **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  | 10 AM - 17 PM (7h)|
 | **Mohammad** | 10 AM - 12 PM (2h)| 9 AM - 11 PM (2h) | 12 PM - 2 PM (2h) |
 | **Kimya**    | 10 AM - 12 PM     | 11 AM -  1 PM     | 10 AM - 12 PM     |
-| **Member 5** | 4h                | 3h                | 5h                |
+| **Norbert** | 12 PM - 2 PM (2h)  | 10 AM - 12 AM (2h) | 8 AM - 12 PM (2h) |
 | **Member 6** | 4h                | 3h                | 5h                |
 | **Member 7** | 4h                | 3h                | 5h                |
 
@@ -79,7 +79,7 @@ ______________________________________________________________________
 | **Abdallah** | 10 AM - 17 PM (7h)  |
 | **Mohammad** | 2 PM - 4 PM (2h)    |
 | **Kimya**    | 11 AM - 1 PM        |
-| **Member 5** | 4h                  |
+| **Norbert**  | 8 AM - 5 PM (9h)    |
 | **Member 6** | 4h                  |
 | **Member 7** | 4h                  |
 
@@ -89,7 +89,7 @@ ______________________________________________________________________
 - **Abdallah**: 2-3 hrs
 - **Mohammad**: 2h
 - **Kimya**: 2h
-- **Member 5**: 5h
+- **Norbert**: 2h
 - **Member 6**: 5h
 - **Member 7**: 5h
 
