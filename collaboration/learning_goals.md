@@ -43,3 +43,9 @@
 - Become proficient in using Git and GitHub to enhance my knowledge
   and potential in writing and reviewing code.
 - Enhance problem-solving skills by collaboration with team.
+
+### **Norbert**
+
+- Master the principles of documenting and testing,
+  with a focus on Test-Driven Development (TDD).
+- Enhance proficiency in Python programming and deepen understanding of its concepts.
