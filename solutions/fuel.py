@@ -63,7 +63,6 @@ def convert(fraction):
 
     assert x <= y, "Numerator cannot be greater than denominator."
 
-    # Calculate percentage and round to nearest integer
     return round((x / y) * 100)
 
 
@@ -76,7 +75,7 @@ def gauge(percentage):
 
     Returns:
         str: 'F' if the percentage is greater than 99, 'E' if less than 1,
-             otherwise the percentage followed by '%'.
+        otherwise the percentage followed by '%'.
 
     Raises:
         AssertionError: If the percentage is not within the range 0-100.
