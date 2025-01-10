@@ -49,11 +49,6 @@ class TestLargestPerfectSquareLessThanNumber(unittest.TestCase):
         actual = largest_perfect_square_less_than_number(2.6)
         self.assertEqual(actual, 1)
 
-    def test_perfect_square_condition(self):
-        """Test the condition when the input number is close to a perfect square."""
-        actual = largest_perfect_square_less_than_number(16.5)
-        self.assertEqual(actual, 9)
-
     # Test edge cases
     def test_small_positive_number(self):
         """It should return 0 if you pass small positive numbers (less than or equal to 1)."""
@@ -63,6 +58,16 @@ class TestLargestPerfectSquareLessThanNumber(unittest.TestCase):
     def test_perfect_square(self):
         """Test when the input is a perfect square."""
         actual = largest_perfect_square_less_than_number(16)
+        self.assertEqual(actual, 9)
+
+    def test_slightly_above_perfect_square(self):
+        """Test with inputs slightly above perfect squares."""
+        actual = largest_perfect_square_less_than_number(16.5)
+        self.assertEqual(actual, 9)
+
+    def test_slightly_below_perfect_square(self):
+        """Test with inputs slightly below perfect squares."""
+        actual = largest_perfect_square_less_than_number(15.9)
         self.assertEqual(actual, 9)
 
     def test_very_large_number(self):

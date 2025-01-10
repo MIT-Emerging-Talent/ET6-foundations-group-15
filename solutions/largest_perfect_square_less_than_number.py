@@ -64,16 +64,27 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
     if number <= 1:
         return 0
 
-    square_root = number**0.5
+        # square_root = number**0.5
 
-    # Ensure we work with the integer part of the square root
-    square_root = int(square_root)
+        # Ensure we work with the integer part of the square root
+        # square_root = int(square_root)
 
-    # Find the largest perfect square less than the number
-    perfect_square = square_root * square_root
+        # Find the largest perfect square less than the number
+        # perfect_square = square_root * square_root
 
-    # Adjust when the number is exactly or close to a perfect square
+        # Adjust when the number is exactly or close to a perfect square
+        # if perfect_square == int(number):
+        # perfect_square = (square_root - 1) * (square_root - 1)
+
+    # return perfect_square
+
+    square_root = int(number**0.5)
+
+    perfect_square = square_root**2
+
+    # Adjust if the square root squared is greater than or equal to the number
     if perfect_square == int(number):
-        perfect_square = (square_root - 1) * (square_root - 1)
+        square_root -= 1
+        perfect_square = square_root**2
 
     return perfect_square
