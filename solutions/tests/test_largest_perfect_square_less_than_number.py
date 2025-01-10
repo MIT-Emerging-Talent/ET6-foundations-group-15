@@ -76,7 +76,7 @@ class TestLargestPerfectSquareLessThanNumber(unittest.TestCase):
         self.assertEqual(actual, 998001)
 
     def test_zero(self):
-        """It should return 0 if you pass 0"""
+        """It should return 0 if you pass 0."""
         actual = largest_perfect_square_less_than_number(0)
         self.assertEqual(actual, 0)
 
