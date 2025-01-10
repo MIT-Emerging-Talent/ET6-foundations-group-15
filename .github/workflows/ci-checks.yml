@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Python - Check Formatting
-        uses: astral-sh/ruff-action@v1
+        uses: astral-sh/ruff-action@v0.9.0
         with:
           args: "format --check"
 
@@ -34,7 +34,7 @@ jobs:
 
       # passing ruff linting is required
       - name: Python - Check Linting - ruff
-        uses: astral-sh/ruff-action@v1
+        uses: astral-sh/ruff-action@v0.9.0
 
       # passing pylint is not required - discuss errors in code review
       # adapted from https://github.com/davidslusser/actions_python_pylint/tree/main
