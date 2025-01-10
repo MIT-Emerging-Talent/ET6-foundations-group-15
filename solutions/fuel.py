@@ -51,9 +51,9 @@ def convert(fraction):
     x, y = fraction.split("/")
 
     # Assert that both parts of the fraction are digits
-    assert (
-        x.isdigit() and y.isdigit()
-    ), "Both numerator and denominator must be integers."
+    assert x.isdigit() and y.isdigit(), (
+        "Both numerator and denominator must be integers."
+    )
 
     x, y = int(x), int(y)
 
