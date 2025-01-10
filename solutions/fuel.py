@@ -23,7 +23,7 @@ def main():
             print(gauge(convert(fraction)))
             break
         except AssertionError as e:
-            print(e)  # Display assertion error message and re-prompt the user
+            print(e)
 
 
 def convert(fraction):
