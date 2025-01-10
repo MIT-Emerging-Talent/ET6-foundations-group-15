@@ -49,3 +49,8 @@
 - Master the principles of documenting and testing,
   with a focus on Test-Driven Development (TDD).
 - Enhance proficiency in Python programming and deepen understanding of its concepts.
+
+### **Asia**
+- Navigating a new platform.
+- Trying to fulfill requirements in spite of personal challenges.
+- Gain experience working with GitHub even if small.
