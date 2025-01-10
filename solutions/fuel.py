@@ -20,12 +20,10 @@ def main():
     """
     while True:
         try:
-            # Prompt user for fraction input
             pcent = input("Fraction: ")
-            # Convert fraction to percentage and display formatted result
             print(gauge(convert(pcent)))
-            break  # Exit loop after successful processing
-        except ValueError:
+            break
+        except AssertionError:
             # Ignore invalid inputs and re-prompt the user
             pass
 
@@ -41,7 +39,7 @@ def convert(fraction):
         int: The percentage equivalent of the fraction, rounded to the nearest integer.
 
     Raises:
-        ValueError: If the numerator is greater than the denominator, or if the input is invalid.
+        AssertionError: If the numerator is greater than the denominator, or if the input is invalid.
 
     >>> convert("1/2")
     50
@@ -84,9 +82,9 @@ def gauge(percentage):
 
     >>> gauge(50)
     50%
-    >>> count_vowels(99.5)
+    >>> gauge(99.5)
     F
-    >>> count_vowels(0)
+    >>> gauge(0)
     E
 
     """
