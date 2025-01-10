@@ -15,7 +15,7 @@ Test categories:
 
     - Edge tests:
         - Small positive numbers (the input is less than or equal to 1)
-        - Perfect squares
+        - Perfect squares and slightly below or above it
         - Very large numbers
         - Zero
 
