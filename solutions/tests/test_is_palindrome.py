@@ -6,7 +6,6 @@ Test module for is_palindrome function.
 Contains tests for checking palindrome functionality with spaces, punctuation, and other edge cases.
 
 Test categories:
-    - Callable check: confirming the function can be called
     - Functionality tests: checking if the function correctly identifies palindromes
     and non-palindromes
     - Palindrome tests: typical palindromes with various punctuations and spaces
@@ -39,12 +38,12 @@ class TestIsPalindrome(unittest.TestCase):
         self.assertEqual(actual, False)
 
     def test_ignore_spaces_and_punctuation(self):
-        """Test that the function ignores spaces and punctuation."""
+        """It should return True for a palindrome string that includes spaces and punctuation."""
         actual = is_palindrome("A man, a plan, a canal, Panama!")
         self.assertEqual(actual, True)
 
     def test_ignore_spaces_and_punctuation_2(self):
-        """Test that the function handles spaces and punctuation in a different phrase."""
+        """It should return True for another palindrome string with spaces and punctuation."""
         actual = is_palindrome(
             "Are we not pure? “No, sir!” Panama’s moody Noriega brags. "
             "“It is garbage!” Irony dooms a man—a prisoner up to new era."
@@ -82,12 +81,12 @@ class TestIsPalindrome(unittest.TestCase):
         self.assertEqual(actual, False)
 
     def test_case_insensitivity(self):
-        """it should be case insensitive when the text is upper"""
+        """It should return True for a palindrome string regardless of letter case."""
         actual = is_palindrome("Level")
         self.assertEqual(actual, True)
 
     # test defensive assertions
     def test_defensive_assertion_for_integer_input(self):
-        """Test that an assertion is raised if the input is an integer."""
+        """It should raise an AssertionError if the input is not a string."""
         with self.assertRaises(AssertionError):
-            is_palindrome(123321)  # input must be a string
+            is_palindrome(123321)
