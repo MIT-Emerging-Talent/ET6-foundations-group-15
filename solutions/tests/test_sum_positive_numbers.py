@@ -70,11 +70,16 @@ class TestSumPositiveNumbers(unittest.TestCase):
 
     # Test defensive assertions
     def test_defensive_assertion_for_non_list_input(self):
-        """Test that an assertion is raised if the input is not a list."""
+        """It should raise an assertion error if the input is not a list."""
         with self.assertRaises(AssertionError):
             sum_positive_numbers(123)
 
-    def test_defensive_assertion_for_non_numeric_elements(self):
-        """Test that an assertion is raised if the list contains non-numeric elements."""
+    def test_defensive_assertion_for_empty_string_input(self):
+        """It should raise an assertion error if the input is an empty string."""
         with self.assertRaises(AssertionError):
-            sum_positive_numbers([1, "a", 3])  # list contains a non-numeric element
+            sum_positive_numbers("")
+
+    def test_defensive_assertion_for_non_numeric_elements(self):
+        """It should raise an assertion error if the list contains non-numeric elements."""
+        with self.assertRaises(AssertionError):
+            sum_positive_numbers([1, "a", 3])

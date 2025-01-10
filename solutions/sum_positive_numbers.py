@@ -51,13 +51,7 @@ def sum_positive_numbers(numbers: list) -> float:
     assert isinstance(numbers, list), "Input must be a list"
 
     for num in numbers:
-        assert isinstance(num, (int, float)), (
-            f"List must contain only numeric elements, but found: {type(num)}"
-        )
-
-    # Ensures that if there's no data to process, we handle it efficiently
-    if not numbers:
-        return 0
+        assert isinstance(num, (int, float)), "List must contain only numeric elements"
 
     total = 0
 
