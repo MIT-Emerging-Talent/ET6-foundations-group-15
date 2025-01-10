@@ -53,9 +53,9 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
         81
     """
     # Validate input type to avoid errors in mathematical operations
-    assert isinstance(
-        number, (int, float)
-    ), "Input must be a number (either integer or float)."
+    assert isinstance(number, (int, float)), (
+        "Input must be a number (either integer or float)."
+    )
 
     # Negative numbers do not have valid perfect squares
     assert number >= 0, "Input must be a non-negative number."
