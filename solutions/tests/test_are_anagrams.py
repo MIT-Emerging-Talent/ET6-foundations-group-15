@@ -13,7 +13,7 @@ Created on 04 01 24
 
 import unittest
 
-from ..anagrams import are_anagrams
+from ..are_anagrams import are_anagrams
 
 
 class TestAnagrams(unittest.TestCase):
