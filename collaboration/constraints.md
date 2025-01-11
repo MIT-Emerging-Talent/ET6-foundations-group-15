@@ -41,6 +41,8 @@ Some boundaries around our project.
 | Asia  | Using a phone to do a project      |
 | Shadi  | New to Github & Python        |
 
+
+
 ## Internal: Voluntary
 
 <!--
@@ -58,3 +60,5 @@ Some boundaries around our project.
 | Kimya   | The code difficulty      |
 | Asia  | The organization of the project      |
 | Shadi   | The code difficulty        |
+
+
