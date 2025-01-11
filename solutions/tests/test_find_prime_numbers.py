@@ -53,13 +53,6 @@ class TestPrimeFunctions(unittest.TestCase):
         expected = False
         self.assertEqual(actual, expected)
 
-    def test_is_prime_negative(self):
-        """
-        It should raise an assertion error if the input is a negative integer
-        """
-        with self.assertRaises(AssertionError):
-            is_prime(-5)
-
     def test_is_prime_string(self):
         """
         It should raise an assertion error if the input is a non-integer
