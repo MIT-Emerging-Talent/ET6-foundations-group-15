@@ -45,3 +45,6 @@
 - Enhance problem-solving skills by collaboration with team.
 
 ### **Shadi**
+
+- Programming Proficiency
+- Proficiency in Github & Python
