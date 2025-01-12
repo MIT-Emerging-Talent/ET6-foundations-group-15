@@ -55,3 +55,9 @@
 - Navigating a new platform.
 - Trying to fulfill requirements in spite of personal challenges.
 - Gain experience working with GitHub even if small.
+
+### **Shadi**
+
+- Programming Proficiency
+- Proficiency in Github & Python
+

@@ -23,6 +23,8 @@ Some boundaries around our project.
 | Kimya      | Time management        |
 | Asia   | Internet connectivity and no laptop    |
 | Norbert   | Time management        |
+| Shadi  | Work, Internet connectivity|
+
 
 ## Internal: Involuntary
 
@@ -40,6 +42,8 @@ Some boundaries around our project.
 | Kimya   | New to Python and Github       |
 | Asia  | Using a phone to do a project      |
 | Norbert   | Newbie on Test Driven Development        |
+| Shadi  | New to Github & Python        |
+
 
 ## Internal: Voluntary
 
@@ -58,3 +62,5 @@ Some boundaries around our project.
 | Kimya   | The code difficulty      |
 | Asia  | The organization of the project      |
 | Norbert   | Python Formatting       |
+| Shadi   | The code difficulty        |
+
