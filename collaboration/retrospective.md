@@ -48,10 +48,19 @@
 
 ## Lessons Learned
 
-- **Collaboration, collaboration, collaboration:** Team members in any project
-  should be effectively collaborating with each other. Besides ensuring successful
-  delivery of the project, such communication will ensure that no members do more
-  than they have to.
+- **Collaboration, collaboration, collaboration:** Team members on any project
+  should collaborate effectively with one another. This ensures not only the
+  successful delivery of the project but also that no individual is
+  burdened with more work than necessary.
+- **Marketing on GitHub**: Given that most programmers and companies worldwide
+  utilize GitHub, it's highly beneficial to start developing projects and
+  sharing them on this platform. At more advanced levels, contributing
+  to open-source projects can significantly enhance both experience
+  and professional portfolio.
+- **Reviews and feedback:** Do not assume your code is great or easily readable
+  unless your teammates confirm it. This isn't about doubting your abilities;
+  rather, clear comprehension in your mind doesn't guarantee others will
+  understand it similarly. **Therefore, CODE REVIEWS ARE CRUCIAL!**
   
 ______________________________________________________________________
 
