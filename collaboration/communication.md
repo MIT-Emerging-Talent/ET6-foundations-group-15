@@ -57,7 +57,7 @@ ______________________________________________________________________
 | **Mohammad** | 2 PM - 4 PM (2h)  | 2 PM - 4 PM (2h)  | 7 PM - 10 PM (2h) |
 | **Norbert**  | 5 PM -  7PM (2h)  | 2 PM - 4 PM  (2h)  | 4 PM - 6 PM (2h) |
 | **Asia** | 2 PM -  4PM (2h)      | 2 PM - 4 PM (2h)  | 2 PM  - 4 PM (2h) |
-| **Member 7** | 5h                | 6h                | 5h                |
+| **Zeinab** | 5h                | 6h                | 5h                |
 
 #### Thursday to Saturday
 
@@ -69,7 +69,7 @@ ______________________________________________________________________
 | **Kimya**    | 10 AM - 12 PM     | 11 AM -  1 PM     | 10 AM - 12 PM     |
 | **Norbert** | 12 PM - 2 PM (2h)  | 10 AM - 12 AM (2h) | 8 AM - 12 PM (2h) |
 | **Asia** | 2 PM - 4 PM (2h)      | 10 AM - 12 AM (2h) | 2 PM - 4 PM (2h) |
-| **Member 7** | 4h                | 3h                | 5h                |
+| **Zeinab** | 4h                | 3h                | 5h                |
 
 #### Sunday
 
@@ -81,7 +81,7 @@ ______________________________________________________________________
 | **Kimya**    | 11 AM - 1 PM        |
 | **Norbert**  | 8 AM - 5 PM (9h)    |
 | **Asia** | 2 PM - 4 PM (2h)        |
-| **Member 7** | 4h                  |
+| **Zeinab** | 4h                  |
 
 ### How many hours everyone has per day
 
@@ -91,7 +91,7 @@ ______________________________________________________________________
 - **Kimya**: 2h
 - **Norbert**: 2h
 - **Asia**: 2h
-- **Member 7**: 5h
+- **Zeinab**: 5h
 
 ## Asking for Help
 
