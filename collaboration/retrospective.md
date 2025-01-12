@@ -87,7 +87,8 @@ ______________________________________________________________________
 
 ### Did you need to add things that weren't in your strategy?
 
-- PASS
+- Some members had issues that prevented them from learning some Git and Github basics
+  in advance, therefore, we needed to conduct meetings to tackle this issue.
 
 ### Or remove extra steps?
 
