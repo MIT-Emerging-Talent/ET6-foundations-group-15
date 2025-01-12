@@ -79,6 +79,7 @@ ______________________________________________________________________
   didn't have to deal with last-minute problems.
 - We have all learned the basics of Git and GitHub, along with the
   essentials of testing and code reviewing. This is the start to a long journey!
+- Most members didn't have to change their strategies, it was more about the implementation.
   
 ### What parts of your plan did not work out?
 
