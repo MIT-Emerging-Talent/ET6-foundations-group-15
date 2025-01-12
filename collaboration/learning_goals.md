@@ -60,4 +60,3 @@
 
 - Programming Proficiency
 - Proficiency in Github & Python
-
