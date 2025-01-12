@@ -93,6 +93,8 @@ ______________________________________________________________________
 
 ### Or remove extra steps?
 
+- We didn't have to remove any steps!
+
 ______________________________________________________________________
 
 Last but not least, we believe that it's time to look for a new group
